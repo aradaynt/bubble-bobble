@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3 uid="uid://rbk2v23sx673"]
+
+[ext_resource type="Script" uid="uid://clo5rv6jt8hwy" path="res://scripts/menu.gd" id="1_xdvgc"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_lumdm"]
+font_size = 100
+
+[node name="Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_xdvgc")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 123.0
+offset_top = 63.0
+offset_right = 1051.0
+offset_bottom = 311.0
+text = "Bubble Bobble
+Press Space to start"
+label_settings = SubResource("LabelSettings_lumdm")

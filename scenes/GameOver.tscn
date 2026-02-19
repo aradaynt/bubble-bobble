@@ -1,0 +1,46 @@
+[gd_scene load_steps=3 format=3 uid="uid://bbllw68qumgnu"]
+
+[ext_resource type="Script" uid="uid://bkh7hwt327knk" path="res://scripts/game_over.gd" id="1_6bcno"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_tvctj"]
+font_size = 200
+
+[node name="GameOver" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_6bcno")
+
+[node name="Gameovertext" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 1.0
+offset_top = 92.0
+offset_right = 12.0
+offset_bottom = -283.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "GAME OVER"
+label_settings = SubResource("LabelSettings_tvctj")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.32700002
+anchor_top = 0.59900004
+anchor_right = 0.605
+anchor_bottom = 0.823
+offset_left = 0.29595947
+offset_top = -0.15203857
+offset_right = 0.039978027
+offset_bottom = -0.3040161
+text = "Click me to Restart
+Or
+Press Space"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
