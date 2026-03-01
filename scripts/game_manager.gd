@@ -8,6 +8,7 @@ func add_score(points):
 	print("Score: ", score)
 
 func lose_life():
+	$HurtSound.play()
 	lives-=1
 	print("Lives left: ", lives)
 	

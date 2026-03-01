@@ -2,7 +2,7 @@ extends CharacterBody2D
 
 const SPEED = 100.0
 const GRAVITY = 980.0
-var direction = -1
+var direction = 1
 
 
 func _physics_process(delta: float) -> void:
@@ -15,7 +15,7 @@ func _physics_process(delta: float) -> void:
 	
 	if is_on_wall():
 		direction *= -1
-		$AnimatedSprite2D.flip_h = (direction > 0)
+		$AnimatedSprite2D.flip_h = (direction < 0)
 
 
 func _on_hit_box_body_entered(body):

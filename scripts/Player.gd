@@ -23,7 +23,7 @@ func _physics_process(delta):
 		velocity.y +=GRAVITY*delta
 	if Input.is_action_just_pressed("jump") and is_on_floor():
 		velocity.y = JUMP_VELOCITY
-		#TODO Add Jump Sound
+		$JumpSound.play()
 	var direction = Input.get_axis("move_left","move_right")
 	if direction:
 		velocity.x = direction * SPEED
@@ -31,20 +31,26 @@ func _physics_process(delta):
 		if direction < 0:
 			if is_on_floor():
 				$AnimatedSprite2D.play("run_left")
+				$StepSound.play()
 			else:
 				$AnimatedSprite2D.play("jump_left")
+				$StepSound.stop()
 		else:
 			if is_on_floor():
 				$AnimatedSprite2D.play("run_right")
+				$StepSound.play()
 			else:
 				$AnimatedSprite2D.play("jump_right")
+				$StepSound.stop()
 				
 	else:
 		velocity.x = move_toward(velocity.x,0,SPEED)
 		if not is_firing: 
 			$AnimatedSprite2D.play("default")
+			$StepSound.stop()
 		
 	if Input.is_action_just_pressed("fire"):
+		$BlowSound.play()
 		is_firing = true
 		if last_direction < 0:
 			$AnimatedSprite2D.play("fire_left")

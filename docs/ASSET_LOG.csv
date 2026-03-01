@@ -1,0 +1,37 @@
+asset_id,type,tool,prompt_summary,iterations,manual_edit_minutes,main_problems,godot_import_notes,final_path
+bg0.png,bg,Nano Banana 2,Make me a Background, 1, 1,N/A,N/A,res://assets_ai/processed/bg0.png
+block0.png,tileset,Nano Banana 2, Make me a block to make platforms, 2, 1,N/A,N/A,res://assets_ai/processed/block0.png
+blow0.png,sprite_sheet,Nano Banana 2, Make me an image of the character blowing a bubble, 1, 1, N/A,N/A,res://assets_ai/processed/blow0.png
+blow1.png,sprite_sheet,N/A, I flipped the image myself, 1,1,N/A,N/A,res://assets/images/blow1.png
+jump0.png,sprite_sheet,Nano Banana 2, Make an image of the character jumping, 1,1,N/A,N/A,res://assets_ai/processed/jump0.png
+jump1.png,sprite_sheet,N/A, I flipped the image myslef, 1,1,N/A,N/A,res://assets/images/jump1.png
+orb,sprite_sheet,N/A, I didn't change any of the bubble textures since the assingment didn't list it,0,0,N/A,N/A,res://assets/images/orb0.png
+pop,sprite_Sheet,N/A, I also didnt change the pops since I didnt chaneg the bubble,0,0,N/A,N/A,res://assets/images/pop0.png
+robot000.png,sprite_sheet,Nano Banana 2,Make me an enemy,1,2,N/A,N/A,res://assets_ai/processed/robot000.png
+robot001.png,sprite_sheet,Nano Banana 2,Next frame,1,2,N/A,N/A,res://assets_ai/processed/robot001.png
+robot002.png,sprite_sheet,Nano Banana 2,Next frame,1,2,N/A,N/A,res://assets_ai/processed/robot002.png
+robot003.png,sprite_sheet,Nano Banana 2,Next frame,1,2,N/A,N/A,res://assets_ai/processed/robot003.png
+robot004.png,sprite_sheet,Nano Banana 2,Next frame,1,2,N/A,N/A,res://assets_ai/processed/robot004.png
+run00.png,sprite_sheet,Nano Banana 2,Make me a frame of the character running, 1,1,N/A,N/A,res://assets_ai/processed/run00.png
+run01.png,sprite_sheet,Nano Banana 2,Next frame, 1,1,N/A,N/A,res://assets_ai/processed/run01.png
+run02.png,sprite_sheet,Nano Banana 2,Next frame, 1,1,N/A,N/A,res://assets_ai/processed/run02.png
+run03.png,sprite_sheet,Nano Banana 2,Next frame, 4,1,Kept generating the same image,N/A,res://assets_ai/processed/run03.png
+run00.png,sprite_sheet,N/A,I flipped the image, 1,1,N/A,N/A,res://assets/images/run10.png
+run01.png,sprite_sheet,N/A,I flipped the image, 1,1,N/A,N/A,res://assets/images/run11.png
+run02.png,sprite_sheet,N/A,I flipped the image, 1,1,N/A,N/A,res://assets/images/run12.png
+run03.png,sprite_sheet,N/A,I flipped the image, 1,1,N/A,N/A,res://assets/images/run13.png
+still.png,sprite_sheet,Nano Banana 2,Make me a character,1,1,N/A,N/A,res://assets_ai/processed/still.png
+trap00.png,sprite_sheet,Nano Banana 2, Make me the enemy trapped in a bubble,1,1,N/A,N/A,res://assets_ai/processed/trap00.png
+trap01.png,sprite_sheet,N/A,I rotated the image myself,1,1,N/A,N/A,res://assets/images/trap01.png
+trap02.png,sprite_sheet,N/A,I rotated the image myself,1,1,N/A,N/A,res://assets/images/trap02.png
+trap03.png,sprite_sheet,N/A,I rotated the image myself,1,1,N/A,N/A,res://assets/images/trap03.png
+trap04.png,sprite_sheet,N/A,I rotated the image myself,1,1,N/A,N/A,res://assets/images/trap04.png
+trap05.png,sprite_sheet,N/A,I rotated the image myself,1,1,N/A,N/A,res://assets/images/trap05.png
+trap06.png,sprite_sheet,N/A,I rotated the image myself,1,1,N/A,N/A,res://assets/images/trap06.png
+trap07.png,sprite_sheet,N/A,I rotated the image myself,1,1,N/A,N/A,res://assets/images/trap07.png
+music.mp3,music,Nano Banana 2, I asked for a jump sound and it gave me this,1,1,N/A,N/A,res://assets_ai/processed/music.mp3
+blow.mp3,sfx,N/A, I recorded this sound myself,1,1,N/A,N/A,res://assets_ai/processed/blow.mp3
+hurt.mp3,sfx,N/A, I recorded this sound myself,1,1,N/A,N/A,res://assets_ai/processed/hurt.mp3
+jump.mp3,sfx,Nano Banana 2, I asked for a jump sound and got bg music so I took a snippet of it,1,1,N/A,N/A,res://assets_ai/processed/blow.mp3
+step.mp3,sfx,N/A, I recorded this sound myself,1,1,N/A,N/A,res://assets_ai/processed/step.mp3
+pop.mp3,sfx,N/A, I recorded this sound myself,1,1,N/A,N/A,res://assets_ai/processed/pop.mp3

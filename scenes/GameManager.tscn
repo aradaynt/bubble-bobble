@@ -1,6 +1,16 @@
-[gd_scene load_steps=2 format=3 uid="uid://3lihr0k1ivx0"]
+[gd_scene load_steps=4 format=3 uid="uid://3lihr0k1ivx0"]
 
 [ext_resource type="Script" uid="uid://c6dsmacjfelrc" path="res://scripts/game_manager.gd" id="1_34tde"]
+[ext_resource type="AudioStream" uid="uid://dsu38kd4j8rfv" path="res://assets/music/music.mp3" id="2_qppyr"]
+[ext_resource type="AudioStream" uid="uid://b4qv7t64hmqgh" path="res://assets/sounds/hurt.mp3" id="3_4dhvd"]
 
 [node name="GameManader" type="Node"]
 script = ExtResource("1_34tde")
+
+[node name="MusicPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_qppyr")
+volume_db = -22.989
+autoplay = true
+
+[node name="HurtSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_4dhvd")

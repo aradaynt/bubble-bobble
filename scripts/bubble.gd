@@ -42,6 +42,7 @@ func pop_bubble():
 	$CollisionShape2D.set_deferred("disabled",true)
 	if has_node("/root/GameManager"):
 		GameManager.add_score(100)
+	$PopSound.play()
 	$AnimatedSprite2D.play("pop")
 	await $AnimatedSprite2D.animation_finished
 	queue_free()

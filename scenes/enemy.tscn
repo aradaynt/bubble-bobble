@@ -1,11 +1,11 @@
 [gd_scene load_steps=10 format=3 uid="uid://bg0amqscxyakb"]
 
-[ext_resource type="Texture2D" uid="uid://dwvldswgesinu" path="res://assets/images/robot000.png" id="1_c4w8v"]
+[ext_resource type="Texture2D" uid="uid://c65roo820u0d3" path="res://assets/images/robot000.png" id="1_c4w8v"]
 [ext_resource type="Script" uid="uid://d3uexa7muc16f" path="res://scripts/enemy.gd" id="1_xwavj"]
-[ext_resource type="Texture2D" uid="uid://1o284mwwghdb" path="res://assets/images/robot001.png" id="2_xwavj"]
-[ext_resource type="Texture2D" uid="uid://dxwae7jihdqsx" path="res://assets/images/robot002.png" id="3_nenq2"]
-[ext_resource type="Texture2D" uid="uid://dcriu0qvn0b5c" path="res://assets/images/robot003.png" id="4_md484"]
-[ext_resource type="Texture2D" uid="uid://dn8ov62b8h7xd" path="res://assets/images/robot004.png" id="5_ipns3"]
+[ext_resource type="Texture2D" uid="uid://yfh8jl1qy4fn" path="res://assets/images/robot001.png" id="2_xwavj"]
+[ext_resource type="Texture2D" uid="uid://bk65f76ww0jj2" path="res://assets/images/robot002.png" id="3_nenq2"]
+[ext_resource type="Texture2D" uid="uid://dybjmou2x1jgx" path="res://assets/images/robot003.png" id="4_md484"]
+[ext_resource type="Texture2D" uid="uid://d1q0aqv0dbypn" path="res://assets/images/robot004.png" id="5_ipns3"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_8qclf"]
 animations = [{
