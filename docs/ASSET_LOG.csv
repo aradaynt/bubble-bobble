@@ -29,9 +29,9 @@ trap04.png,sprite_sheet,N/A,I rotated the image myself,1,1,N/A,N/A,res://assets/
 trap05.png,sprite_sheet,N/A,I rotated the image myself,1,1,N/A,N/A,res://assets/images/trap05.png
 trap06.png,sprite_sheet,N/A,I rotated the image myself,1,1,N/A,N/A,res://assets/images/trap06.png
 trap07.png,sprite_sheet,N/A,I rotated the image myself,1,1,N/A,N/A,res://assets/images/trap07.png
-music.mp3,music,Nano Banana 2, I asked for a jump sound and it gave me this,1,1,N/A,N/A,res://assets_ai/processed/music.mp3
+music.mp3,music,Lydia, I asked for a jump sound and it gave me this,1,1,N/A,N/A,res://assets_ai/processed/music.mp3
 blow.mp3,sfx,N/A, I recorded this sound myself,1,1,N/A,N/A,res://assets_ai/processed/blow.mp3
 hurt.mp3,sfx,N/A, I recorded this sound myself,1,1,N/A,N/A,res://assets_ai/processed/hurt.mp3
-jump.mp3,sfx,Nano Banana 2, I asked for a jump sound and got bg music so I took a snippet of it,1,1,N/A,N/A,res://assets_ai/processed/blow.mp3
+jump.mp3,sfx,Lydia, I asked for a jump sound and got bg music so I took a snippet of it,1,1,N/A,N/A,res://assets_ai/processed/blow.mp3
 step.mp3,sfx,N/A, I recorded this sound myself,1,1,N/A,N/A,res://assets_ai/processed/step.mp3
 pop.mp3,sfx,N/A, I recorded this sound myself,1,1,N/A,N/A,res://assets_ai/processed/pop.mp3
